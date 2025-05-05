@@ -8,295 +8,276 @@
 </head>
 <body class="bg-[#5681FD] text-gray-800 font-sans leading-normal">
   <div class="mx-auto px-2 lg:px-6 xl:px-8 py-8 max-w-full">
-  <div class="flex flex-col md:flex-row min-h-screen bg-gray-100 p-4 rounded-2xl shadow-md">
-    <!-- Aside Izquierdo-->
-    <aside class="md:w-64 bg-white shadow-lg p-4 hidden xl:block">
-      <div class="p-6 text-2xl font-bold text-blue-600">MiDashboard</div>
-      <div class="flex items-center gap-2">
-        <span class="inline-block w-2 h-2 border-red-600 border-2 rounded-full mb-4"></span>
-      <h2 class="text-lg font-bold text-gray-800 mb-4">Menu</h2>
-      </div>
-      <nav class="mt-6">
-        <ul>
-          <li class="mb-2">
-            <a href="#" class="flex items-center text-blue-600 font-semibold bg-blue-100 rounded-lg px-3 py-2">
-              <span class="ml-2">Home pages</span>
-            </a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="flex items-center text-gray-700 hover:bg-blue-100 rounded-lg px-3 py-2">
-              <span class="ml-2">Team data</span>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="flex items-center text-gray-700 hover:bg-blue-100 rounded-lg px-3 py-2">
-              <span class="ml-2">Team projects</span>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="flex items-center text-gray-700 hover:bg-blue-100 rounded-lg px-3 py-2">
-              <span class="ml-2">Team collect</span>
-            </a>
-          </li>
-        </ul>
-        <div class="mt-8">
-      <div class="flex items-center gap-2">
-        <span class="inline-block w-2 h-2 border-green-600 border-2 rounded-full mt-6"></span>
-      <h2 class="text-lg mt-6 font-semibold text-gray-800"> Skills</h2>
-      </div>
-      <ul>
-        <li class="flex justify-between text-gray-700 mb-4 ml-2">
-          <span>ui/ux design</span>
-          <span class="text-blue-500 mr-2">124</span>
-        </li>
-        <li class="flex justify-between text-gray-700 mb-4 ml-2">
-          <span>web design</span>
-          <span class="text-blue-500 mr-2">134</span>
-        </li>
-        <li class="flex justify-between text-gray-700 mb-4 ml-2">
-          <span>Illustrations</span>
-          <span class="text-blue-500 mr-2">39</span>
-        </li>
-        <li class="flex justify-between text-gray-700 ml-2 mb-80">
-          <span>Dynamic effect</span>
-          <span class="text-blue-500 mr-2">12</span>
-        </li>
-      </ul>
-    </div>
-      </nav>
-      <div class="p-4 border-t flex items-center justify-between">
-        <span class="text-xs text-gray-400">Sun / Moon</span>
-        <div class="w-4 h-4 bg-blue-400 rounded-full"></div>
-      </div>
-    </aside>
-
-    <!-- Contenido principal -->
-    <div class="flex-1 flex flex-col">
-      
-      <!-- Header -->
-      <header class="bg-white shadow px-4 py-4 flex flex-col sm:flex-row justify-between items-center h-auto sm:h-[100px] rounded-bl-xl gap-4">
-        <div class="flex items-center gap-3  max-w-xl">
-          <button class="xl:hidden flex px-8 py-3 font-semibold text-lg rounded-3xl border-blue-600 border-2 hover:underline" >MiDashboard</button>
-        <button class="bg-gray-100 p-3 rounded-lg hover:bg-blue-700 transition"><img src="../images/lupa.png" alt="" class="w-6 h-6">
-        </button>
-        <input type="text" placeholder="Search for members and works ... ..." class=" w-full border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition hidden xl:block">
+    <div class="flex flex-col md:flex-row min-h-screen bg-gray-100 p-4 rounded-2xl shadow-md">
+      <!-- Aside Izquierdo-->
+      <aside class="md:w-64 bg-white shadow-lg p-4 hidden xl:block">
+        <div class="p-6 text-2xl font-bold text-blue-600">MiDashboard</div>
+        <div class="flex items-center gap-2">
+          <span class="inline-block w-2 h-2 border-red-600 border-2 rounded-full mb-4"></span>
+          <h2 class="text-lg font-bold text-gray-800 mb-4">Menu</h2>
         </div>
-        <div class="flex items-center gap-6 ml-6">
-          <!-- Campana de notificaciones -->
-          <button class="relative hover:scale-110 transition">
-            <img src="../images/campana.png" alt="Notificaciones" class="w-7 h-7 hidden md:flex">
-          </button>
-            <!-- Engranaje de configuración -->
-          <button class="hover:scale-110 transition">
-          <img src="../images/engranaje.png" alt="Configuración" class="w-7 h-7">
-          </button>
-          <!-- Imagen de perfil y nombre -->
-          <div class="flex items-center gap-3">
-          <img src="../images/icono.jpeg" alt="Perfil" class="rounded-full w-12 h-12">
-          <span class="text-gray-600 font-bold text-lg hidden md:flex">Never_stop</span>
-          </div>
-          <button class="md:hidden flex px-2 py-3 font-semibold text-lg rounded-3xl border-blue-600 border-2 hover:underline" >Team Dynamic</button>
-        </div>
-      </header>
-
-      <!-- Main content -->
-      <main class="p-4 space-y-6">
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-lg text-blue-500 font-semibold">Months visits</h3>
-            <p class="text-3xl text-center font-bold mt-10 text-gray-900">19,089</p>
-        <img src="../images/icono.jpeg" alt="perfil" class="mx-auto mb-6 rounded-full w-20 h-20 mt-20" />
-      
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-lg text-red-500 font-semibold">Months likes</h3>
-            <p class="text-3xl text-center font-bold mt-10 text-gray-900">7,735</p>
-            <img src="../images/icono.jpeg" alt="Perfil" class="mx-auto rounded-full w-20 h-20 mt-20">
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-lg text-yellow-500 font-semibold">Months comments</h3>
-            <p class="text-3xl text-center font-bold mt-10 text-gray-900">1,826</p>
-            <img src="../images/icono.jpeg" alt="Perfil" class="mx-auto rounded-full w-20 h-20 mt-20">
-          </div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div class="bg-white flex flex-col justify-end gap-6 p-6 rounded-lg shadow-md">
+        <nav class="mt-6">
+          <ul>
+            <li class="mb-2">
+              <a href="#" class="flex items-center text-blue-600 font-semibold bg-blue-100 rounded-lg px-3 py-2">
+                <span class="ml-2">Home pages</span>
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#" class="flex items-center text-gray-700 hover:bg-blue-100 rounded-lg px-3 py-2">
+                <span class="ml-2">Team data</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center text-gray-700 hover:bg-blue-100 rounded-lg px-3 py-2">
+                <span class="ml-2">Team projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center text-gray-700 hover:bg-blue-100 rounded-lg px-3 py-2">
+                <span class="ml-2">Team collect</span>
+              </a>
+            </li>
+          </ul>
+          <div class="mt-8">
             <div class="flex items-center gap-2">
-              <img src="../images/medalla.jpg" alt="Medalla Clásica" class="w-10 h-10">
-              <span class="font-semibold text-blue-700">Work rank</span>
+              <span class="inline-block w-2 h-2 border-green-600 border-2 rounded-full mt-6"></span>
+              <h2 class="text-lg mt-6 font-semibold text-gray-800"> Skills</h2>
             </div>
-            <ul class="flex flex-col">
-            <li class="flex justify-end justify-between">
-              <div class="flex items-center gap-3">
-                <img src="../images/icono.jpeg" alt="Rwds" class="w-9 h-9 rounded-full bg-gray-200 object-cover" />
-                <div>
-                  <div class="font-semibold text-gray-800">Rwds</div>
-                  <div class="text-xs text-gray-400">62,799 followers</div>
-                </div>
-              </div>
-              <span class="font-bold text-red-500">282</span>
-        </li>
-        </ul>
-        <li class="flex items-center justify-between">
-          <div class="flex items-center gap-3">
-            <img src="../images/icono.jpeg" alt="Shuishouge" class="w-9 h-9 rounded-full bg-gray-200 object-cover" />
-            <div>
-              <div class="font-semibold text-gray-800">Shuishouge</div>
-              <div class="text-xs text-gray-400">3,195 followers</div>
-            </div>
+            <ul>
+              <li class="flex justify-between text-gray-700 mb-4 ml-2">
+                <span>ui/ux design</span>
+                <span class="text-blue-500 mr-2">124</span>
+              </li>
+              <li class="flex justify-between text-gray-700 mb-4 ml-2">
+                <span>web design</span>
+                <span class="text-blue-500 mr-2">134</span>
+              </li>
+              <li class="flex justify-between text-gray-700 mb-4 ml-2">
+                <span>Illustrations</span>
+                <span class="text-blue-500 mr-2">39</span>
+              </li>
+              <li class="flex justify-between text-gray-700 ml-2 mb-80">
+                <span>Dynamic effect</span>
+                <span class="text-blue-500 mr-2">12</span>
+              </li>
+            </ul>
           </div>
-          <span class="font-bold text-blue-500">117</span>
-        </li>
-        <li class="flex items-center justify-between">
-          <div class="flex items-center gap-3">
-            <img src="../images/icono.jpeg" alt="Erics" class="w-9 h-9 rounded-full bg-gray-200 object-cover" />
-            <div>
-              <div class="font-semibold text-gray-800">Erics</div>
-              <div class="text-xs text-gray-400">24,156 followers</div>
-            </div>
-          </div>
-          <span class="font-bold text-yellow-500">115</span>
-        </li>
-      </ul>
-      <a href="#" class="text-gray-400 text-sm mt-2 hover:underline text-center">To see all</a>
-          </div>
-          
-          
-          <div class="col-span-1 md:col-span-2 bg-white p-6 rounded-lg shadow-md">
-            <div class="flex items-center gap-2 mb-4">
-              <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2m-4-10v8m0 0l3-3m-3 3l-3-3m5 10v2a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2h2" />
-              </svg>
-              <span class="font-semibold text-blue-700">Discussion groups</span>
-              <span class="ml-auto text-gray-400 text-5xl">...</span>
-            </div>
-          
-            <!-- Grupo 1: RDD UI Design -->
-            <div class="flex flex-col">
-              <div class="flex items-center justify-between">
-                <div>
-                  <h4 class="font-semibold text-gray-800 ">RDD UI Design</h4>
-                  <p class="text-sm text-gray-400 mt-2">Communicate together, welcome like-minded friends to join</p>
-                </div>
-                <span class="text-gray-400 text-sm mt-2 lg:block hidden">March 5</span>
-              </div>
-              <!-- Grid de Avatares -->
-              <div class="flex gap-6 mt-10">
-                <img src="../images/icono.jpeg" alt="Avatar 1" class="w-10 h-10 rounded-full object-cover bg-gray-200">
-                <img src="../images/icono.jpeg" alt="Avatar 2" class="w-10 h-10 rounded-full object-cover bg-gray-200 ">
-                <img src="../images/icono.jpeg" alt="Avatar 3" class="w-10 h-10 rounded-full object-cover bg-gray-200 ">
-                <img src="../images/icono.jpeg" alt="Avatar 4" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden">
-                <img src="../images/icono.jpeg" alt="Avatar 5" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden">
-                <img src="../images/icono.jpeg" alt="Avatar 6" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden ">
-                <span class="w-10 h-10 rounded-full bg-gray-200 text-gray-500 text-xs flex items-center justify-center ">+14</span>
-              </div>
-              <div class="flex flex-col">
-                <div class="flex items-center justify-between">
-                  <div>
-                    <h4 class="font-semibold text-gray-800 mt-4">RDD Illustrations</h4>
-                    <p class="text-sm text-gray-400 mt-2">Communicate together, welcome like-minded friends to join</p>
-                  </div>
-                  <span class="text-gray-400 text-xs lg:block hidden">September 8</span>
-                </div>
-                <!-- Grid de Avatares -->
-                <div class="flex gap-6 mt-10">
-                  <img src="../images/icono.jpeg" alt="Avatar 7" class="w-10 h-10 rounded-full object-cover bg-gray-200">
-                  <img src="../images/icono.jpeg" alt="Avatar 8" class="w-10 h-10 rounded-full object-cover bg-gray-200">
-                  <img src="../images/icono.jpeg" alt="Avatar 9" class="w-10 h-10 rounded-full object-cover bg-gray-200">
-                  <img src="../images/icono.jpeg" alt="Avatar 10" class="w-10 h-10 rounded-full object-cover bg-gray-200">
-                  <img src="../images/icono.jpeg" alt="Avatar 11" class="w-10 h-10 rounded-full object-cover bg-gray-200">
-                  <img src="../images/icono.jpeg" alt="Avatar 12" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden">
-                  
-                </div>
-              </div>
-          </div>
-          
+        </nav>
+        <div class="p-4 border-t flex items-center justify-between">
+          <span class="text-xs text-gray-400">Sun / Moon</span>
+          <div class="w-4 h-4 bg-blue-400 rounded-full"></div>
         </div>
-        <!-- New released -->
-  <div class="col-span-1 md:col-span-3 bg-white p-6 rounded-lg shadow-md">
-    <!-- Grid de Avatares -->
-    <div class="flex gap-10 py-0">
-      <h4 class="font-semibold text-blue-700 mb-2">New released:</h4>
-      <img src="../images/icono.jpeg" alt="Avatar 13" class="w-10 h-10 rounded-full object-cover bg-gray-200">
-      <img src="../images/icono.jpeg" alt="Avatar 14" class="w-10 h-10 rounded-full object-cover bg-gray-200">
-      <img src="../images/icono.jpeg" alt="Avatar 15" class="w-10 h-10 rounded-full object-cover bg-gray-200">
-      <img src="../images/icono.jpeg" alt="Avatar 110" class="w-10 h-10 rounded-full object-cover bg-gray-200">
-      <img src="../images/icono.jpeg" alt="Avatar 17" class="w-10 h-10 rounded-full object-cover bg-gray-200">
-      <img src="../images/icono.jpeg" alt="Avatar 18" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden">
-      <img src="../images/icono.jpeg" alt="Avatar 19" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden">
-      <img src="../images/icono.jpeg" alt="Avatar 20" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden">
-      <img src="../images/icono.jpeg" alt="Avatar 20" class="w-10 h-10 rounded-full object-cover bg-gray-200 2xl:block hidden">
-      <img src="../images/icono.jpeg" alt="Avatar 20" class="w-10 h-10 rounded-full object-cover bg-gray-200 2xl:block hidden">
-      <img src="../images/icono.jpeg" alt="Avatar 20" class="w-10 h-10 rounded-full object-cover bg-gray-200 2xl:block hidden">
-      <img src="../images/icono.jpeg" alt="Avatar 20" class="w-10 h-10 rounded-full object-cover bg-gray-200 2xl:block hidden">
-      <img src="../images/icono.jpeg" alt="Avatar 20" class="w-10 h-10 rounded-full object-cover bg-gray-200 2xl:block hidden">
+      </aside>
+      <!-- Contenido principal -->
+      <div class="flex-1 flex flex-col">
+        <!-- Header -->
+        <header class="bg-white shadow px-4 py-4 flex flex-col sm:flex-row justify-between items-center h-auto sm:h-[100px] rounded-bl-xl gap-4">
+          <div class="flex items-center gap-3  max-w-xl">
+            <button class="xl:hidden flex px-8 py-3 font-semibold text-lg rounded-3xl border-blue-600 border-2 hover:underline" >MiDashboard</button>
+            <button class="bg-gray-100 p-3 rounded-lg hover:bg-blue-700 transition"><img src="../images/lupa.png" alt="" class="w-6 h-6"></button>
+            <input type="text" placeholder="Search for members and works ... ..." class=" w-full border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition hidden xl:block">
+          </div>
+          <div class="flex items-center gap-6 ml-6">
+            <!-- Campana de notificaciones -->
+            <button class="relative hover:scale-110 transition">
+              <img src="./images/campana.png" alt="Notificaciones" class="w-7 h-7 hidden md:flex">
+            </button>
+              <!-- Engranaje de configuración -->
+            <button class="hover:scale-110 transition">
+              <img src="./images/engranaje.png" alt="Configuración" class="w-7 h-7">
+            </button>
+            <!-- Imagen de perfil y nombre -->
+            <div class="flex items-center gap-3">
+              <img src="./images/icono.jpeg" alt="Perfil" class="rounded-full w-12 h-12">
+              <span class="text-gray-600 font-bold text-lg hidden md:flex">Never_stop</span>
+            </div>
+            <button class="md:hidden flex px-2 py-3 font-semibold text-lg rounded-3xl border-blue-600 border-2 hover:underline" >Team Dynamic</button>
+          </div>
+        </header>
+        <!-- Main content -->
+        <main class="p-4 space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-lg text-blue-500 font-semibold">Months visits</h3>
+              <p class="text-3xl text-center font-bold mt-10 text-gray-900">19,089</p>
+              <img src="./images/icono.jpeg" alt="perfil" class="mx-auto mb-6 rounded-full w-20 h-20 mt-20" />
+            </div>
+              <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-lg text-red-500 font-semibold">Months likes</h3>
+                <p class="text-3xl text-center font-bold mt-10 text-gray-900">7,735</p>
+                <img src="./images/icono.jpeg" alt="Perfil" class="mx-auto rounded-full w-20 h-20 mt-20">
+              </div>
+              <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-lg text-yellow-500 font-semibold">Months comments</h3>
+                <p class="text-3xl text-center font-bold mt-10 text-gray-900">1,826</p>
+                <img src="./images/icono.jpeg" alt="Perfil" class="mx-auto rounded-full w-20 h-20 mt-20">
+              </div>
+          </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div class="bg-white flex flex-col justify-end gap-6 p-6 rounded-lg shadow-md">
+                <div class="flex items-center gap-2">
+                  <img src="./images/medalla.jpg" alt="Medalla Clásica" class="w-10 h-10">
+                  <span class="font-semibold text-blue-700">Work rank</span>
+                </div>
+                <ul class="flex flex-col">
+                  <li class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-3">
+                      <img src="./images/icono.jpeg" alt="Rwds" class="w-9 h-9 rounded-full bg-gray-200 object-cover" />
+                      <div>
+                        <div class="font-semibold text-gray-800">Rwds</div>
+                        <div class="text-xs text-gray-400">62,799 followers</div>
+                      </div>
+                    </div>
+                    <span class="font-bold text-red-500">282</span>
+                  </li>
+                  <li class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-3">
+                      <img src="./images/icono.jpeg" alt="Shuishouge" class="w-9 h-9 rounded-full bg-gray-200 object-cover" />
+                      <div>
+                        <div class="font-semibold text-gray-800">Shuishouge</div>
+                        <div class="text-xs text-gray-400">3,195 followers</div>
+                      </div>
+                    </div>
+                    <span class="font-bold text-blue-500">117</span>
+                  </li>
+                  <li class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-3">
+                      <img src="./images/icono.jpeg" alt="Erics" class="w-9 h-9 rounded-full bg-gray-200 object-cover" />
+                      <div>
+                        <div class="font-semibold text-gray-800">Erics</div>
+                        <div class="text-xs text-gray-400">24,156 followers</div>
+                      </div>
+                    </div>
+                    <span class="font-bold text-yellow-500">115</span>
+                  </li>
+                </ul>
+                <a href="#" class="text-gray-400 text-sm mt-2 hover:underline text-center">To see all</a>
+              </div>
+              <div class="col-span-1 md:col-span-2 bg-white p-6 rounded-lg shadow-md">
+                <div class="flex items-center gap-2 mb-4">
+                  <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2m-4-10v8m0 0l3-3m-3 3l-3-3m5 10v2a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2h2" />
+                  </svg>
+                  <span class="font-semibold text-blue-700">Discussion groups</span>
+                  <span class="ml-auto text-gray-400 text-5xl">...</span>
+                </div>
+                <!-- Grupo 1: RDD UI Design -->
+                <div class="flex flex-col">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <h4 class="font-semibold text-gray-800 ">RDD UI Design</h4>
+                      <p class="text-sm text-gray-400 mt-2">Communicate together, welcome like-minded friends to join</p>
+                    </div>
+                    <span class="text-gray-400 text-sm mt-2 lg:block hidden">March 5</span>
+                  </div>
+                  <!-- Grid de Avatares -->
+                  <div class="flex gap-6 mt-10">
+                    <img src="./images/icono.jpeg" alt="Avatar 1" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+                    <img src="./images/icono.jpeg" alt="Avatar 2" class="w-10 h-10 rounded-full object-cover bg-gray-200 ">
+                    <img src="./images/icono.jpeg" alt="Avatar 3" class="w-10 h-10 rounded-full object-cover bg-gray-200 ">
+                    <img src="./images/icono.jpeg" alt="Avatar 4" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden">
+                    <img src="./images/icono.jpeg" alt="Avatar 5" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden">
+                    <img src="./images/icono.jpeg" alt="Avatar 6" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden ">
+                    <span class="w-10 h-10 rounded-full bg-gray-200 text-gray-500 text-xs flex items-center justify-center ">+14</span>
+                  </div>
+                  <div class="flex flex-col">
+                    <div class="flex items-center justify-between">
+                      <div>
+                        <h4 class="font-semibold text-gray-800 mt-4">RDD Illustrations</h4>
+                        <p class="text-sm text-gray-400 mt-2">Communicate together, welcome like-minded friends to join</p>
+                      </div>
+                      <span class="text-gray-400 text-xs lg:block hidden">September 8</span>
+                    </div>
+                    <!-- Grid de Avatares -->
+                    <div class="flex gap-6 mt-10">
+                      <img src="../images/icono.jpeg" alt="Avatar 7" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+                      <img src="../images/icono.jpeg" alt="Avatar 8" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+                      <img src="../images/icono.jpeg" alt="Avatar 9" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+                      <img src="../images/icono.jpeg" alt="Avatar 10" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+                      <img src="../images/icono.jpeg" alt="Avatar 11" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+                      <img src="../images/icono.jpeg" alt="Avatar 12" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden">  
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- New released -->
+              <div class="col-span-1 md:col-span-3 bg-white p-6 rounded-lg shadow-md">
+                <!-- Grid de Avatares -->
+                <div class="flex gap-10 py-0">
+                  <h4 class="font-semibold text-blue-700 mb-2">New released:</h4>
+                  <img src="../images/icono.jpeg" alt="Avatar 13" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+                  <img src="../images/icono.jpeg" alt="Avatar 14" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+                  <img src="../images/icono.jpeg" alt="Avatar 15" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+                  <img src="../images/icono.jpeg" alt="Avatar 110" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+                  <img src="../images/icono.jpeg" alt="Avatar 17" class="w-10 h-10 rounded-full object-cover bg-gray-200">
+                  <img src="../images/icono.jpeg" alt="Avatar 18" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden">
+                  <img src="../images/icono.jpeg" alt="Avatar 19" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden">
+                  <img src="../images/icono.jpeg" alt="Avatar 20" class="w-10 h-10 rounded-full object-cover bg-gray-200 lg:block hidden">
+                  <img src="../images/icono.jpeg" alt="Avatar 20" class="w-10 h-10 rounded-full object-cover bg-gray-200 2xl:block hidden">
+                  <img src="../images/icono.jpeg" alt="Avatar 20" class="w-10 h-10 rounded-full object-cover bg-gray-200 2xl:block hidden">
+                  <img src="../images/icono.jpeg" alt="Avatar 20" class="w-10 h-10 rounded-full object-cover bg-gray-200 2xl:block hidden">
+                  <img src="../images/icono.jpeg" alt="Avatar 20" class="w-10 h-10 rounded-full object-cover bg-gray-200 2xl:block hidden">
+                  <img src="../images/icono.jpeg" alt="Avatar 20" class="w-10 h-10 rounded-full object-cover bg-gray-200 2xl:block hidden">
+                </div>
+              </div>
+            </div>
+        </main>
+      </div>  
+      <aside  class="md:w-64 bg-white shadow-lg p-4 hidden md:block">
+        <h3 class="text-xl font-bold mb-6 text-blue-500">Team Dynamic</h3>
+        <ul class="space-y-6">
+          <li class="flex items-start gap-4">
+            <span class="avatar w-12 h-12 rounded-full overflow-hidden">
+              <img src="../images/nube.png" alt="Ray" class="w-8 h-8 object-cover">
+            </span>
+            <div class="text-gray-700">
+              <strong class="block font-semibold">Ray</strong> Just released work<br>
+              <span class="activity-title block text-sm font-medium text-blue-600">Neptune Meng-APP</span>
+              <span class="activity-time block text-xs text-gray-500">About three hours ago</span>
+            </div>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="avatar w-12 h-12 rounded-full overflow-hidden">
+              <img src="../images/nube.png" alt="Rwds" class="w-8 h-8 object-cover">
+            </span>
+            <div class="text-gray-700">
+              <strong class="block font-semibold">Rwds</strong> reloaded work<br>
+              <span class="activity-title block text-sm font-medium text-blue-600">Mountain2</span>
+              <span class="activity-time block text-xs text-gray-500">About three hours ago</span>
+            </div>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="avatar w-12 h-12 rounded-full overflow-hidden">
+              <img src="../images/nube.png" alt="Maxvision" class="w-8 h-8  object-cover">
+            </span>
+            <div class="text-gray-700">
+              <strong class="block font-semibold">Maxvision</strong> released work<br>
+              <span class="activity-title block text-sm font-medium text-blue-600">Photography App ...</span>
+              <span class="activity-time block text-xs text-gray-500">About a month ago</span>
+            </div>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="avatar w-12 h-12 rounded-full overflow-hidden">
+              <img src="../images/mensaje.png" alt="Wahab" class="w-6 h-6  object-cover">
+            </span>
+            <div class="text-gray-700">
+              Welcome <strong class="font-bold">Wahab</strong> to the team<br>
+              <span class="activity-time block text-xs text-gray-500">About a month ago</span>
+            </div>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="avatar w-12 h-12 rounded-full overflow-hidden">
+              <img src="../images/mensaje.png" alt="David Blitz" class="w-6 h-6 object-cover">
+            </span>
+            <div class="text-gray-700">
+              Sorry, <strong class="font-bold">David Blitz</strong> left the team<br>
+              <span class="activity-time block text-xs text-gray-500">About a year ago</span>
+            </div>
+          </li>
+        </ul>
+      </aside>
     </div>
   </div>
-</div>
-  </div>
-  
-</main>
-<aside  class="md:w-64 bg-white shadow-lg p-4 hidden md:block">
-  <h3 class="text-xl font-bold mb-6 text-blue-500">Team Dynamic</h3>
-  <ul class="space-y-6">
-    <li class="flex items-start gap-4">
-      <span class="avatar w-12 h-12 rounded-full overflow-hidden">
-        <img src="../images/nube.png" alt="Ray" class="w-8 h-8 object-cover">
-      </span>
-      <div class="text-gray-700">
-        <strong class="block font-semibold">Ray</strong> Just released work<br>
-        <span class="activity-title block text-sm font-medium text-blue-600">Neptune Meng-APP</span>
-        <span class="activity-time block text-xs text-gray-500">About three hours ago</span>
-      </div>
-    </li>
-
-    <li class="flex items-start gap-4">
-      <span class="avatar w-12 h-12 rounded-full overflow-hidden">
-        <img src="../images/nube.png" alt="Rwds" class="w-8 h-8 object-cover">
-      </span>
-      <div class="text-gray-700">
-        <strong class="block font-semibold">Rwds</strong> reloaded work<br>
-        <span class="activity-title block text-sm font-medium text-blue-600">Mountain2</span>
-        <span class="activity-time block text-xs text-gray-500">About three hours ago</span>
-      </div>
-    </li>
-
-    <li class="flex items-start gap-4">
-      <span class="avatar w-12 h-12 rounded-full overflow-hidden">
-        <img src="../images/nube.png" alt="Maxvision" class="w-8 h-8  object-cover">
-      </span>
-      <div class="text-gray-700">
-        <strong class="block font-semibold">Maxvision</strong> released work<br>
-        <span class="activity-title block text-sm font-medium text-blue-600">Photography App ...</span>
-        <span class="activity-time block text-xs text-gray-500">About a month ago</span>
-      </div>
-    </li>
-
-    <li class="flex items-start gap-4">
-      <span class="avatar w-12 h-12 rounded-full overflow-hidden">
-        <img src="../images/mensaje.png" alt="Wahab" class="w-6 h-6  object-cover">
-      </span>
-      <div class="text-gray-700">
-        Welcome <strong class="font-bold">Wahab</strong> to the team<br>
-        <span class="activity-time block text-xs text-gray-500">About a month ago</span>
-      </div>
-    </li>
-
-    <li class="flex items-start gap-4">
-      <span class="avatar w-12 h-12 rounded-full overflow-hidden">
-        <img src="../images/mensaje.png" alt="David Blitz" class="w-6 h-6 object-cover">
-      </span>
-      <div class="text-gray-700">
-        Sorry, <strong class="font-bold">David Blitz</strong> left the team<br>
-        <span class="activity-time block text-xs text-gray-500">About a year ago</span>
-      </div>
-    </li>
-  </ul>
-</aside>
-  </div>
-</div>
 </body>
 </html>
